@@ -1,0 +1,32 @@
+.container_year{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 117, 108);
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    box-sizing: border-box;
+    width: 40%;
+
+}
+.ano{
+     
+    padding: 10px 10px;
+    font-weight: bold; 
+}
+
+button{
+   
+    border: none;
+    background-color: transparent;
+    padding: 0px 15px;
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    transform: .6s;
+}
+ 
+button:hover{
+    color:rgb(95, 32, 67);
+   
+   
+}

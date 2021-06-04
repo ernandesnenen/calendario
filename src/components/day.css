@@ -1,0 +1,45 @@
+.container_days{
+display: flex;
+width: 100%;
+
+ margin: 0;
+ padding: 0;
+}
+.inSelect{
+    background-color:rgba(76, 221, 190, 0.76) ;
+}
+table {
+    width: 100%;  
+    border-spacing: 0;
+  
+    box-sizing: border-box;
+}
+table thead{
+   background-color: rgb(34, 121, 111);
+   padding: 8px;
+
+}
+
+table thead tr th{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    border: none; 
+    color: white; 
+    
+}
+
+table tbody{
+    margin: 0;    
+    text-align: center;
+    
+
+
+}
+
+table tbody tr td{
+    border: rgba(76, 221, 190, 0.76)  solid 0.5px;    
+    padding: 8px;
+    font-weight: bold;
+}

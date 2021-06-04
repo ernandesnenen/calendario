@@ -1,0 +1,28 @@
+.container_month{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(125, 250, 212);
+    align-items: center;
+    color: rgb(85, 33, 69);
+    box-sizing: border-box;
+    width: 60%;
+    justify-content: space-between;
+}
+.mes{
+     
+    padding: 10px 10px; 
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    cursor: pointer;
+    color:white;
+    transform: .6s;
+}
+ 
+button:hover{
+    color:rgb(85, 33, 69);
+   
+}
