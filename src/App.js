@@ -1,8 +1,8 @@
 import {  useEffect,  useState } from 'react';
-import { Months_calendar } from './components/months_calendar';
-import { Year_calendar } from './components/year_calendar';
+import { MonthsCalendar } from './components/months_calendar';
+import { YearCalendar } from './components/year_calendar';
 import { getMonth, getYear, lastDayOfMonth, startOfMonth, setMonth, setYear, eachDayOfInterval} from 'date-fns'
-import { Days_month } from './components/day_months_calendar';
+import { DaysMonth } from './components/day_months_calendar';
 import './App.css'
 
 
@@ -66,11 +66,11 @@ function App() {
   
     <div className='container_calendar'>
       <div className='anomes'>       
-        <Year_calendar date_year={year} add_year={add_year} sub_year={sub_year} />
-        <Months_calendar date_month={month} add_month={add_month} sub_month={sub_month}  />       
+        <YearCalendar date_year={year} add_year={add_year} sub_year={sub_year} />
+        <MonthsCalendar date_month={month} add_month={add_month} sub_month={sub_month}  />       
       </div> 
       <div className='days'>
-        <Days_month days_month_year={days} date_day={date}/>
+        <DaysMonth days_month_year={days} date_day={date}/>
       </div>      
     </div>
     <div className='left'>

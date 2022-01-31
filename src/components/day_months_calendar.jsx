@@ -5,9 +5,9 @@ import './day.css'
 import { Day } from './day'
 
 
-const Days_month = ({days_month_year, date_day}) => {
+const DaysMonth = ({days_month_year, date_day}) => {
  
-let daySelect = [ 2, 20]
+
 
   const dias = days_month_year.map(day=> day.getDate()) 
   let firstDayMonth= getDay(setDate(date_day, 1))
@@ -37,15 +37,7 @@ let celulas =[]
 let linhas =[]
 // criar as tds ou celulas da tabela
 console.log(diasDoMes)
-diasDoMes.map((item, index )=> {
-    
-    // if(item == 2){
-    //     celulas.push(<Day id={index} key={index}  >{item}</Day>)
-
-    // }
-
-     celulas.push(<Day id={index} key={index}  >{item}</Day>)
-    })
+diasDoMes.map((item, index ) => celulas.push(<Day id={index} key={index}  >{item}</Day>))
     
       
 // criar as trs ou linhas da tabela
@@ -76,4 +68,4 @@ for(let b= 0;b<6;b++){
           ) 
         
 }
-export {Days_month}
+export {DaysMonth}

@@ -1,7 +1,7 @@
 
 import {FiChevronLeft, FiChevronRight} from 'react-icons/fi'
 import './month.css'
-const Months_calendar = ({date_month, add_month, sub_month}) => {
+const MonthsCalendar = ({date_month, add_month, sub_month}) => {
 
   const meses = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Desembro']  
   
@@ -28,4 +28,4 @@ const Months_calendar = ({date_month, add_month, sub_month}) => {
     )
 
 }
-export {Months_calendar}
+export {MonthsCalendar}

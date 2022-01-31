@@ -2,7 +2,7 @@
 import {FiChevronLeft, FiChevronRight} from 'react-icons/fi'
 
 import './year.css'
-const Year_calendar = ({date_year,add_year,sub_year}) => {   
+const YearCalendar = ({date_year,add_year,sub_year}) => {   
     
     return(
         <div className='container_year'>
@@ -19,4 +19,4 @@ const Year_calendar = ({date_year,add_year,sub_year}) => {
     )
 
 }
-export {Year_calendar}
+export {YearCalendar}
